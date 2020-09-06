@@ -12,14 +12,16 @@ import './PostColection.css'
 
 const useStyles = makeStyles({
   root: {
-    width:"30%",
-margin: "1%",
-float:"left",
-transition: "0.3s",
-boxShadow: "0 8px 40px -12px rgba(0,0,0,0.3)",
-"&:hover": {
-boxShadow: "0 16px 70px -12.125px rgba(0,0,0,0.3)"
-}
+    maxWidth: 345,
+//     width:"30%",
+//     height:"30",
+// margin: "1%",
+// float:"left",
+// transition: "0.3s",
+// boxShadow: "0 8px 40px -12px rgba(0,0,0,0.3)",
+// "&:hover": {
+// boxShadow: "0 16px 70px -12.125px rgba(0,0,0,0.3)"
+
     
     
     
@@ -42,7 +44,7 @@ const handleclick = (id) =>{
 const classes = useStyles();
 return (
         <div className="post-show col-md-6">
-           <Card className={classes.root}>
+           <Card className={classes.root} className="card-container">
       <CardActionArea>
         
         <CardContent className="col-md-4">

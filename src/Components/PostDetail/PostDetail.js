@@ -14,18 +14,10 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 const useStyles = makeStyles({
     root: {
-      maxWidth: 345,
-    //   float:"left",
-      marginLeft:"50px",
-      marginBottom:"10px",
-      marginTop:"40px",
-      justifyContent:"center"
-      
-      
-      
-    },
+     maxWidth: 345,
+      },
     media: {
-      height: 140,
+       height: 140,
     },
   });
   
@@ -61,7 +53,7 @@ const PostDetail = () => {
             {/* <h1>User Id :{information.userId}</h1>
             <p>Body : {information.body}</p> */}
             
-            <Card className={classes.root}>
+            <Card className={classes.root} >
       <CardActionArea>
         
         <CardContent className="col-md-4">
